@@ -39,11 +39,12 @@ bun dev
 
 ### 通过 Vercel 访问
 
-你也可以通过在 Vercel 部署的地址：[]()来访问本项目的在线实例。
+你也可以通过在 Vercel 部署的地址：[https://my-contacts-eyo5.vercel.app/contact](https://my-contacts-eyo5.vercel.app/contact)来访问本项目的在线实例。
 
 ## 项目说明
 
 本项目主要包含 web 端和 h5 端,
+
 - API 接口层采用 mockjs 生成 mock 数据；
 - 通过 px2rem 插件和计算 dpr 相关逻辑支持高分屏下的正常显示;
 
@@ -85,4 +86,3 @@ bun dev
 - 虚拟列表
 - 支持暗黑模式
 - 定义一套完善的 css token 用于不同尺寸屏幕和场景下的样式替换
-
