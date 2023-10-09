@@ -1,0 +1,24 @@
+.index-content {
+  height: 100%;
+  overflow: auto;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.header {
+  border-bottom: 1px solid var(--N200);
+  padding-bottom: 8px;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--N300);
+  margin-left: 20px;
+  margin-right: 20px;
+  position: sticky;
+  top: 0;
+  background: var(--N500);
+}
+
