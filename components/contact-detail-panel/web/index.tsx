@@ -10,6 +10,8 @@ interface IProps {
 export default function ContactDetailPanel(props: IProps) {
   const { contact } = props;
 
+  console.info("cyril contact: ", contact);
+
   return (
     <div className={s.contactDetailPanel}>
       <div className={s.top}>

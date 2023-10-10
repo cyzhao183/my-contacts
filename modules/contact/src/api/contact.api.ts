@@ -36,7 +36,7 @@ export function getContacts(): Promise<IContact[]> {
         "avatar|20": Random.image("1", Random.color(), ""),
         "name|1": "@cname()",
         "nickname|1": "@name()",
-        "wechat_accounts|1": "@email()",
+        "wechat_account|1": "@email()",
         "area|1": "@county(true)",
         "gender|1": () => generateGender(),
       },
